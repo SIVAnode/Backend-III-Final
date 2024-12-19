@@ -34,11 +34,23 @@ https://github.com/SIVAnode/Backend-III-Final/blob/main/env.example
 
 
 ### 4. Ejecuta el proyecto  
-Una vez que hayas configurado las variables de entorno, puedes iniciar el servidor con:  
-  
+Una vez que hayas configurado las variables de entorno, puedes iniciar el servidor.  
+
+Para iniciar el servidor en modo desarrollo, usa el siguiente comando en la terminal:
+
+```bash
+   npm run dev
+   ``` 
+Para iniciar el servidor en producción, usa:
+
  ```bash
-   npm start
+   npm run start:prod
    ```    
+Para ejecutar las pruebas, usa:
+
+ ```bash
+   npm run test
+   ```       
 
 
 -----------  
