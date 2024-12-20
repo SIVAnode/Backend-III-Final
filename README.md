@@ -71,8 +71,7 @@ Ejemplo de URL: /api/mocks/generateData?users=10&pets=10.
 (Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
 ![Screenshot 2024-11-22 175344](https://github.com/user-attachments/assets/5945c011-0b0c-4a40-96b8-971360cfdd5b)
 - /api/sessions/login
-![Screenshot 2024-11-22 173433](https://github.com/user-attachments/assets/fe1e4ab0-27cc-4b9e-968d-da1f52da068c)
-(Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)
+![Screenshot 2024-12-20 141333](https://github.com/user-attachments/assets/0e485ece-f631-41a5-8c3e-aab87433b337)
 - /api/users/:id
 ![Screenshot 2024-11-22 180211](https://github.com/user-attachments/assets/3fe2a46a-cc09-4278-96a7-5b32ad76ef2f)
 (Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
@@ -84,11 +83,10 @@ TERMINAL:
 ![Screenshot 2024-11-18 165508](https://github.com/user-attachments/assets/0fa4e261-01e4-423a-aeeb-81f7d1a9dbd2)  
   
 MONGO:  
-![Screenshot 2024-11-18 165547](https://github.com/user-attachments/assets/ed506b44-6980-4e75-bdf3-d7c51ba8d803)
-![Screenshot 2024-11-22 175103](https://github.com/user-attachments/assets/63227351-3c38-4cec-bed8-40db4aa63368)  
-(Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
-![Screenshot 2024-11-22 175023](https://github.com/user-attachments/assets/980b3771-11aa-4464-a7b1-6c3e76f0217a)  
-(Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
+![Screenshot 2024-12-20 141757](https://github.com/user-attachments/assets/550b76aa-05be-489b-b995-4fd594513880)
+![Screenshot 2024-12-20 141817](https://github.com/user-attachments/assets/abc4a579-2691-4998-85e7-9652f3c26446)
+![Screenshot 2024-12-20 122519](https://github.com/user-attachments/assets/f23a76be-2492-4054-9d10-0e4e8e57c337)
+
 
 
   
