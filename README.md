@@ -39,7 +39,7 @@ Una vez que hayas configurado las variables de entorno, puedes iniciar el servid
 Para iniciar el servidor en modo desarrollo, usa el siguiente comando en la terminal:
 
 ```bash
-   npm run dev
+   npm run start
    ``` 
 Para iniciar el servidor en producción, usa:
 
@@ -56,15 +56,14 @@ Para ejecutar las pruebas, usa:
 -----------    
   
 POSTMAN:  
-- /api/mocks/mockingpets
-![Screenshot 2024-11-18 165305](https://github.com/user-attachments/assets/a20bdeb1-999c-42f8-962b-2736bcde1d77)
-- /api/mocks/mockingusers  
-![Screenshot 2024-11-18 165345](https://github.com/user-attachments/assets/75eb17c5-7efb-4c76-810d-d8a863259b0e)
-- /api/mocks/generateData  
-![Screenshot 2024-11-19 065231](https://github.com/user-attachments/assets/4b00d9f3-142f-430e-91c4-b76f0784a9a8)
-- POST /api/mocks/generateData: Este endpoint genera e inserta datos ficticios en la base de datos.  
+- GET /api/mocks/mockingpets
+![Screenshot 2024-12-20 185417](https://github.com/user-attachments/assets/4424e807-4dad-4cac-8494-adc25d53d593)
+
+- GET /api/mocks/mockingusers  
+![Screenshot 2024-12-20 185355](https://github.com/user-attachments/assets/8592b153-f4a2-4d3d-a4e8-c2d8e76c06bf)
+
   
-/api/mocks/generateData (body)  
+- POST /api/mocks/generateData (body)  
 
 ``` json
 {
@@ -77,9 +76,9 @@ POSTMAN:
 
  
 
-- /api/sessions/login
+- POST /api/sessions/login
 ![Screenshot 2024-12-20 141333](https://github.com/user-attachments/assets/0e485ece-f631-41a5-8c3e-aab87433b337)
-- /api/users/:id
+- GET /api/users/:id
 ![Screenshot 2024-12-20 183439](https://github.com/user-attachments/assets/cc2e71d5-7cd6-446e-a855-b087f99786d7)
 
 
@@ -87,6 +86,7 @@ POSTMAN:
 
   
 TERMINAL:  
+![Screenshot 2024-12-20 183526](https://github.com/user-attachments/assets/1dee4b60-7902-4f61-9ab7-143abde4b78c)
 ![Screenshot 2024-11-18 165508](https://github.com/user-attachments/assets/0fa4e261-01e4-423a-aeeb-81f7d1a9dbd2)  
   
 MONGO:  
