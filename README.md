@@ -64,17 +64,24 @@ POSTMAN:
 ![Screenshot 2024-11-19 065231](https://github.com/user-attachments/assets/4b00d9f3-142f-430e-91c4-b76f0784a9a8)
 - POST /api/mocks/generateData: Este endpoint genera e inserta datos ficticios en la base de datos.  
   
-Query Parameters:  
-users (opcional): Cantidad de usuarios a generar. Valor por defecto: 50.  
-pets (opcional): Cantidad de mascotas a generar. Valor por defecto: 50.  
-Ejemplo de URL: /api/mocks/generateData?users=10&pets=10.  
-(Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
-![Screenshot 2024-11-22 175344](https://github.com/user-attachments/assets/5945c011-0b0c-4a40-96b8-971360cfdd5b)
+/api/mocks/generateData (body)  
+
+``` json
+{
+    "users": 10,
+    "pets": 20
+}
+```
+    
+![Screenshot 2024-12-20 183511](https://github.com/user-attachments/assets/a259dd40-2fc2-426d-b2cd-0be417da3bd8)
+
+ 
+
 - /api/sessions/login
 ![Screenshot 2024-12-20 141333](https://github.com/user-attachments/assets/0e485ece-f631-41a5-8c3e-aab87433b337)
 - /api/users/:id
-![Screenshot 2024-11-22 180211](https://github.com/user-attachments/assets/3fe2a46a-cc09-4278-96a7-5b32ad76ef2f)
-(Captura subida el 22/11/24 basandome en lo que subieron mis compañeros)  
+![Screenshot 2024-12-20 183439](https://github.com/user-attachments/assets/cc2e71d5-7cd6-446e-a855-b087f99786d7)
+
 
 
 
