@@ -134,5 +134,4 @@ Al ejecutar el modo de pruebas:
 
 - NOTA: A pesar de lo que se solicita en la consigna y del repositorio proporcionado, opté por desarrollar el proyecto desde cero y abordarlo de una manera diferente. No obstante, se ha cumplido con todos los requisitos establecidos en la consigna, garantizando que se cumplan los objetivos planteados de manera efectiva.
 
-
-![SimonettaDaniel_Evangelion](https://github.com/user-attachments/assets/b8435777-2914-48ec-a640-958a6689a059)
+![SimonettaDaniel_Evangelion](https://github.com/user-attachments/assets/1cdcf5e6-3c1c-4220-a12e-12b22135a6d4)
