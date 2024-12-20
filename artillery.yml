@@ -1,0 +1,29 @@
+config:
+  target: 'http://localhost:8080'
+  phases:
+#    duration es la duración en segundos
+    - duration: 60
+#    arrivalRate son usuarios virtuales
+      arrivalRate: 5
+  defaults:
+    headers:
+      Content-Type: application/json
+
+scenarios:
+  - name: Prueba de generación de mascotas mock
+    flow:
+      - get:
+          url: '/api/mocks/mockingpets'
+
+  - name: Prueba de generación de usuarios mock
+    flow:
+      - get:
+          url: '/api/mocks/mockingusers'
+
+  - name: Prueba de generación masiva de usuarios y mascotas
+    flow:
+      - post:
+          url: '/api/mocks/generateData'
+          json:
+            users: 10
+            pets: 10
