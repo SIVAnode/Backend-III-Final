@@ -94,8 +94,33 @@ MONGO:
 ![Screenshot 2024-12-20 141817](https://github.com/user-attachments/assets/abc4a579-2691-4998-85e7-9652f3c26446)
 ![Screenshot 2024-12-20 122519](https://github.com/user-attachments/assets/f23a76be-2492-4054-9d10-0e4e8e57c337)  
 
+SWAGGER:  
+  
+- Para ver la documentación de los endpoints `users`, abrir en el navegador:
 
-### **Imágen DockerHUB**
+    ```http
+    http://localhost:8080/api-docs
+    ```
+
+  ![Screenshot 2024-12-20 192642](https://github.com/user-attachments/assets/0fa32744-5ce1-47c6-a624-6954bc3c67f3)
+  ![Screenshot 2024-12-20 192616](https://github.com/user-attachments/assets/1f51508f-de2e-4744-8443-0633fc1f3041)
+
+### TEST:  
+Al ejecutar el modo de pruebas:  
+  
+### **Router `adoption.router.js`**:
+- `GET /api/adoptions`: Te da todas las adopciones. 🌆
+- `GET /api/adoptions/{aid}`: Muestra una adopción en particular. 💻
+- `POST /api/adoptions/{uid}/{pid}`: Crea una adopción nueva. 🧠🤖
+
+### **Router `users.router.js`**:
+- `POST /api/users`: Agrega un nuevo usuario al sistema. 🤖👾
+
+---
+
+
+
+### **Imágen en DockerHUB**
 
 - URL Imágen Docker: https://hub.docker.com/r/simonetta/backend3
 
