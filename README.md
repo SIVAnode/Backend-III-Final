@@ -85,7 +85,16 @@ TERMINAL:
 MONGO:  
 ![Screenshot 2024-12-20 141757](https://github.com/user-attachments/assets/550b76aa-05be-489b-b995-4fd594513880)
 ![Screenshot 2024-12-20 141817](https://github.com/user-attachments/assets/abc4a579-2691-4998-85e7-9652f3c26446)
-![Screenshot 2024-12-20 122519](https://github.com/user-attachments/assets/f23a76be-2492-4054-9d10-0e4e8e57c337)
+![Screenshot 2024-12-20 122519](https://github.com/user-attachments/assets/f23a76be-2492-4054-9d10-0e4e8e57c337)  
+
+
+### **Imágen DockerHUB**
+
+- URL Imágen Docker: https://hub.docker.com/r/simonetta/backend3
+
+    - Clonar imágen: 
+            
+            docker pull simonetta/backend3      
 
 
 
